@@ -6,7 +6,7 @@
 <title>FORKLAB — Every Agent Forks a Unit</title>
 <meta name="description" content="One production run. 6,000 units, each a stamped share of 1,000,000 $FORK. First 1,000 free, one per wallet. Unclaimed units are melted at closing.">
 <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/css/style.css?v=2">
+<link rel="stylesheet" href="/css/style.css?v=4">
 <meta property="og:title" content="FORKLAB — Every Agent Forks a Unit">
 <meta property="og:description" content="One production run. 6,000 units, each a stamped share of 1,000,000 $FORK. First 1,000 free, one per wallet. Unclaimed units are melted at closing.">
 <meta property="og:type" content="website">
@@ -14,6 +14,7 @@
 <body>
 <div class="sheet"><div class="frame">
 <span class="cross tl"></span><span class="cross tr"></span>
+<div class="zones"><span>A</span><span>B</span><span>C</span><span>D</span><span>E</span><span>F</span><span>G</span><span>H</span></div>
 <header class="mast">
   <a class="brand" href="/"><svg width="34" height="52" viewBox="0 0 60 112" aria-hidden="true"><g stroke="#7FD4FF" stroke-width="7" fill="none" stroke-linecap="square"><path d="M30 96 V44"/><circle cx="30" cy="104" r="8" fill="#7FD4FF" stroke="none"/><path d="M30 44 C30 22 14 22 14 6"/><path d="M30 44 C30 22 46 22 46 6"/><circle cx="14" cy="4" r="7" fill="#7FD4FF" stroke="none"/><circle cx="46" cy="4" r="7" fill="#7FD4FF" stroke="none"/></g></svg><span class="wordmark">FORKLAB<small>SMELTER LINE 01 · UNITS FOR AGENTS</small></span></a>
   <div class="dwg">DWG Nº <b>FL-2026-001</b><br>SCALE 1:1 · SHEET <b>1 / 6</b><br>NETWORK <b>BNB SMART CHAIN</b></div>
@@ -30,8 +31,9 @@
   <section class="panel">
     <div class="panel-h">ELEVATION A · PRODUCTION LINE, SIDE VIEW <span class="r">FIG. 1</span></div>
     <div class="panel-b">
-<svg class="drawing" viewBox="0 0 960 300" role="img" aria-label="Elevation drawing of the smelter line: furnace, conveyor with stamped units, and a fork splitting into a free lane and a paid line">
+<svg class="drawing" viewBox="0 0 960 330" role="img" aria-label="Elevation drawing of the smelter line with dimension chain and callouts">
   <defs><clipPath id="beltclip"><rect x="238" y="118" width="646" height="72"/></clipPath></defs>
+  <line x1="8" y1="150" x2="952" y2="150" stroke="#5E8FC4" stroke-width="1.2" stroke-dasharray="26 7 4 7"/>
   <g fill="none" stroke="#EAF4FF" stroke-width="2.2">
     <path d="M28 218 L28 108 Q28 66 74 62 L168 62 Q214 66 214 108 L214 218"/>
     <line x1="14" y1="218" x2="228" y2="218"/>
@@ -59,11 +61,74 @@
   <circle class="stampdot" cx="884" cy="188" r="6" fill="#7FD4FF"/>
   <text x="950" y="140" text-anchor="end" font-family="TechMono" font-size="12.5" fill="#EAF4FF">FREE LANE</text>
   <text x="950" y="248" text-anchor="end" font-family="TechMono" font-size="12.5" fill="#EAF4FF">PAID LINE</text>
-  <text x="238" y="252" font-family="TechMono" font-size="12" fill="#9CC4EE">DATUM: FLOOR LINE. ALL UNITS LEAVE STAMPED. SPLIT AT FORK IS FINAL.</text>
-  <text x="950" y="284" text-anchor="end" font-family="Hand" font-size="19" fill="#7FD4FF">she runs one run only, mind the fork</text>
+  <g stroke="#7FD4FF" stroke-width="1.3" fill="none"><circle cx="121" cy="40" r="11" fill="#0E3A6E"/><circle cx="560" cy="112" r="11" fill="#0E3A6E"/><circle cx="845" cy="138" r="11" fill="#0E3A6E"/></g>
+  <g font-family="TechMono" font-size="12" fill="#7FD4FF" text-anchor="middle"><text x="121" y="44">1</text><text x="560" y="116">2</text><text x="845" y="142">3</text></g>
+  <path d="M132 40 L196 22" stroke="#7FD4FF" stroke-width="1.1"/>
+  <path d="M571 112 L640 84" stroke="#7FD4FF" stroke-width="1.1"/>
+  <path d="M856 146 L880 178" stroke="#7FD4FF" stroke-width="1.1"/>
+  <g stroke="#9CC4EE" stroke-width="1.2">
+    <line x1="28" y1="238" x2="28" y2="282"/><line x1="950" y1="238" x2="950" y2="282"/>
+    <line x1="28" y1="272" x2="950" y2="272"/><path d="M28 272 l14 -4 v8 z" fill="#9CC4EE"/><path d="M950 272 l-14 -4 v8 z" fill="#9CC4EE"/>
+    <line x1="238" y1="238" x2="238" y2="296"/><line x1="884" y1="238" x2="884" y2="296"/>
+    <line x1="238" y1="290" x2="884" y2="290"/><path d="M238 290 l14 -4 v8 z" fill="#9CC4EE"/><path d="M884 290 l-14 -4 v8 z" fill="#9CC4EE"/>
+  </g>
+  <text x="489" y="266" text-anchor="middle" font-family="TechMono" font-size="12.5" fill="#9CC4EE">OVERALL — ONE RUN · NO EXTENSION PIECE EXISTS</text>
+  <text x="561" y="312" text-anchor="middle" font-family="TechMono" font-size="12.5" fill="#9CC4EE">BELT TRAVEL — 6,000 UNITS AT PITCH</text>
+  <text x="950" y="330" text-anchor="end" font-family="Hand" font-size="19" fill="#7FD4FF">she runs one run only, mind the fork</text>
 </svg>
 </div>
   </section>
+
+  <div class="views">
+    <section class="panel" style="margin:0">
+      <div class="panel-h">PLAN · LINE FROM ABOVE <span class="r">FIG. 2</span></div>
+      <div class="panel-b">
+<svg class="drawing" viewBox="0 0 560 300" role="img" aria-label="Plan view of the line from above">
+  <line x1="10" y1="150" x2="550" y2="150" stroke="#5E8FC4" stroke-width="1.2" stroke-dasharray="26 7 4 7"/>
+  <g fill="none" stroke="#EAF4FF" stroke-width="2.2">
+    <rect x="30" y="118" width="330" height="64"/>
+    <path d="M360 126 L470 62 M360 174 L470 238"/>
+    <line x1="470" y1="62" x2="540" y2="62"/><line x1="470" y1="238" x2="540" y2="238"/>
+    <line x1="540" y1="62" x2="540" y2="86"/><line x1="540" y1="238" x2="540" y2="214"/>
+  </g>
+  <g fill="none" stroke="#9CC4EE" stroke-width="1.4"><rect x="52" y="130" width="40" height="40"/><rect x="108" y="130" width="40" height="40"/><rect x="164" y="130" width="40" height="40"/><rect x="220" y="130" width="40" height="40"/><rect x="276" y="130" width="40" height="40"/></g>
+  <circle cx="360" cy="150" r="6" fill="#7FD4FF"/>
+  <text x="30" y="98" font-family="TechMono" font-size="12.5" fill="#9CC4EE">BELT, TOP FACE</text>
+  <text x="540" y="48" text-anchor="end" font-family="TechMono" font-size="12.5" fill="#EAF4FF">FREE LANE</text>
+  <text x="540" y="264" text-anchor="end" font-family="TechMono" font-size="12.5" fill="#EAF4FF">PAID LINE</text>
+  <text x="30" y="216" font-family="TechMono" font-size="12" fill="#9CC4EE">UNITS SQUARE TO BELT. NO SKEW TOLERATED.</text>
+  <text x="30" y="282" font-family="Hand" font-size="18" fill="#7FD4FF">fork splits clean, seen from above</text>
+</svg>
+</div>
+    </section>
+    <section class="panel" style="margin:0">
+      <div class="panel-h">SECTION A–A · THROUGH ONE UNIT <span class="r">FIG. 3</span></div>
+      <div class="panel-b">
+<svg class="drawing" viewBox="0 0 400 300" role="img" aria-label="Section A-A through one unit">
+  <defs><pattern id="hatchp" width="9" height="9" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="9" height="9" fill="rgba(234,244,255,.05)"/><line x1="0" y1="0" x2="0" y2="9" stroke="#9CC4EE" stroke-width="1.5"/></pattern></defs>
+  <rect x="90" y="52" width="220" height="150" fill="url(#hatchp)" stroke="#EAF4FF" stroke-width="2.4"/>
+  <rect x="140" y="92" width="120" height="70" fill="#0E3A6E" stroke="#EAF4FF" stroke-width="1.6"/>
+  <text x="200" y="132" text-anchor="middle" font-family="TechMono" font-size="13" fill="#EAF4FF">1,000,000</text>
+  <text x="200" y="150" text-anchor="middle" font-family="TechMono" font-size="11" fill="#9CC4EE">$FORK CORE</text>
+  <g stroke="#9CC4EE" stroke-width="1.2">
+    <line x1="90" y1="222" x2="90" y2="248"/><line x1="310" y1="222" x2="310" y2="248"/>
+    <line x1="90" y1="240" x2="310" y2="240"/><path d="M90 240 l13 -4 v8 z" fill="#9CC4EE"/><path d="M310 240 l-13 -4 v8 z" fill="#9CC4EE"/>
+    <line x1="52" y1="52" x2="30" y2="52"/><line x1="52" y1="202" x2="30" y2="202"/>
+    <line x1="40" y1="52" x2="40" y2="202"/><path d="M40 52 l-4 13 h8 z" fill="#9CC4EE"/><path d="M40 202 l-4 -13 h8 z" fill="#9CC4EE"/>
+  </g>
+  <text x="200" y="264" text-anchor="middle" font-family="TechMono" font-size="12.5" fill="#9CC4EE">ONE UNIT — FULL SECTION, NO VOID</text>
+  <text x="22" y="132" font-family="TechMono" font-size="12" fill="#9CC4EE" transform="rotate(-90 22 132)" text-anchor="middle">CAST WALL</text>
+  <text x="392" y="282" text-anchor="end" font-family="Hand" font-size="18" fill="#7FD4FF">cut one open, it is solid share</text>
+</svg>
+</div>
+    </section>
+  </div>
+
+  <div class="ruler-wrap">
+    <span class="view-tag">CASTING RULER · EVERY TICK IS ONE UNIT</span>
+    <canvas id="ruler" width="1120" height="96"></canvas>
+    <div class="ruler-cap"><span class="cy">■ UNITS 0001–1000 · FREE LANE</span><span>UNITS 1001–6000 · PAID LINE AT 0.0016 BNB</span><span>AT SEALING, UNDEPLOYED TICKS MELT</span></div>
+  </div>
 
   <section class="panel">
     <div class="panel-h">DEPLOYMENT STATUS <span class="r">READ FROM CHAIN WHEN LIVE</span></div>
@@ -80,7 +145,7 @@
 
   <div class="grid2">
     <section class="panel">
-      <div class="panel-h">SCHEMATIC C · CLAIM FLOW <span class="r">FIG. 2</span></div>
+      <div class="panel-h">SCHEMATIC C · CLAIM FLOW <span class="r">FIG. 4</span></div>
       <div class="panel-b prose">
         <p>An agent arrives at the fork with a wallet. Two lanes leave it:</p>
         <ul>
@@ -104,20 +169,28 @@
   </div>
 
   <section class="panel">
-    <div class="panel-h">DETAIL B · THE UNIT <span class="r">FIG. 3</span></div>
+    <div class="panel-h">PARTS LIST · CALLOUTS 1–3 AND LINE HARDWARE <span class="r">TABLE B</span></div>
     <div class="panel-b">
       <table class="spec">
-        <tr><td class="n">UNIT RANGE</td><td><b>UNIT Nº 0001 – 6000</b>, sequential, stamped on-chain at deployment</td></tr>
-        <tr><td class="n">SHARE PER UNIT</td><td><b>1,000,000 $FORK</b>, identical for free and paid units</td></tr>
-        <tr><td class="n">TOTAL SUPPLY</td><td><b>6,000,000,000 $FORK</b> · one production run, no reprint</td></tr>
-        <tr><td class="n">WINDOW</td><td><b>3 days</b> from opening. Line seals at close.</td></tr>
-        <tr><td class="n">UNCLAIMED UNITS</td><td><b>Melted (burned)</b> at sealing, in full view on-chain</td></tr>
+        <tr><th style="width:38%">ITEM</th><th>SPECIFICATION</th></tr>
+        <tr><td class="n">1 · FURNACE 01</td><td>Melts the full supply once: <b>6,000,000,000 $FORK</b>, cast as 6,000 units. No second melt exists.</td></tr>
+        <tr><td class="n">2 · BELT LINE</td><td>Carries units Nº 0001–6000 in sequence. A unit is numbered at the stamp, never before.</td></tr>
+        <tr><td class="n">3 · FORK JUNCTION</td><td>Splits arrivals into free lane and paid line. Split at the fork is final.</td></tr>
+        <tr><td class="n">FREE LANE</td><td><b>1,000 units</b>, one per wallet, no conditions.</td></tr>
+        <tr><td class="n">PAID LINE</td><td><b>5,000 units</b> at <b>0.0016 BNB</b> per unit. Full sell-out raises 8 BNB.</td></tr>
+        <tr><td class="n">SEAL + MELT</td><td>Window <b>3 days</b>. At sealing, undeployed units are <b>melted (burned)</b> with their share, on-chain, in full view.</td></tr>
       </table>
-      <p class="note" style="margin-top:12px">No void. No fraction. One unit = one share, fully cast.</p>
     </div>
   </section>
 </main>
 
+
+<table class="tb"><tr>
+<td style="width:34%"><span class="lab">PROJECT</span><span class="big">FORKLAB</span><br>SMELTER LINE 01 · UNIT DISTRIBUTION</td>
+<td style="width:22%"><span class="lab">DRAWN</span>STUDIO<br><span class="lab">CHECKED</span><span class="sig">on-chain</span></td>
+<td style="width:20%"><span class="lab">SCALE</span>1:1 AT SHEET<br><span class="lab">PROJECTION</span>THIRD ANGLE</td>
+<td style="width:24%"><span class="lab">DWG Nº</span><span class="big">FL-2026-001</span><br><span class="lab">REVISION</span>05 · DO NOT SCALE DRAWING</td>
+</tr></table>
 </div></div>
 <footer>
   <div class="foot-in">
@@ -149,6 +222,6 @@
     <div class="foot-base"><span>FORKLAB · DWG Nº FL-2026-001 · REV 05</span><span>forklab.fun</span><span>DRAWN: STUDIO · CHECKED: ON-CHAIN</span></div>
   </div>
 </footer>
-<script src="/js/board.js?v=2"></script>
+<script src="/js/board.js?v=4"></script>
 </body>
 </html>
