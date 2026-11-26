@@ -9,6 +9,7 @@ FORKLAB is a unit distribution on BNB Smart Chain (chainId 56), drawn as an engi
 - Window: 3 days from opening; opening time TBA, announced in UTC on forklab.fun
 - Line status: awaiting opening order
 - Official X: https://x.com/forklabfun (@forklabfun)
+- Built for the Binance Agent ID Hackathon (Binance Wallet x BNB Chain); submission window 18 Nov - 9 Dec 2026.
 
 ## Mechanics
 
