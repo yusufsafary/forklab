@@ -114,3 +114,25 @@ footer a{display:block;border:none;margin-bottom:6px;color:var(--ink)}
 .announce .a-date .d1{font-size:27px;letter-spacing:1px}
 .announce .a-date .d2{font-size:12px;color:var(--mid);letter-spacing:2.4px}
 @media(max-width:560px){.announce .a-date{text-align:left}}
+@font-face{font-family:'Stencil';src:url('/fonts/SairaStencilOne.ttf') format('truetype');font-display:swap}
+h1,h2.sheet-t,.btn,.tb .big,footer h4{font-family:'Stencil',sans-serif}
+.btn{letter-spacing:.5px}
+.statusline .val{font-family:'Stencil',sans-serif;font-size:16.5px;letter-spacing:.5px}
+.wmcol{display:flex;flex-direction:column;gap:4px}
+.wm-svg{width:min(252px,54vw);height:auto;display:block}
+.wm-tag{font-family:'BarlowC',sans-serif;font-weight:600;font-size:12.5px;letter-spacing:3.4px;color:var(--mid)}
+.hero-wrap{position:relative;overflow:hidden}
+.hero-wrap .kicker,.hero-wrap h1,.hero-wrap .lede{position:relative;z-index:1}
+.bignum{position:absolute;right:-14px;top:-46px;font-family:'Stencil',sans-serif;font-size:clamp(150px,27vw,310px);line-height:1;color:transparent;-webkit-text-stroke:1.6px rgba(127,212,255,.30);pointer-events:none;z-index:0}
+.tape{border-top:var(--line);border-bottom:var(--line);overflow:hidden;white-space:nowrap;margin:18px 0 2px;background:rgba(9,38,76,.55)}
+.tape-in{display:inline-block;padding:8px 0;font-family:'TechMono',monospace;letter-spacing:2.6px;font-size:14.5px;color:var(--mid);animation:tapemove 32s linear infinite;will-change:transform}
+.tape-in b{color:var(--cyan);font-weight:400}
+@keyframes tapemove{to{transform:translateX(-50%)}}
+.panel{position:relative}
+.seal{position:absolute;top:-27px;right:16px;width:97px;height:97px;z-index:3;pointer-events:none}
+.seal svg{width:100%;height:100%;animation:sealspin 26s linear infinite}
+@keyframes sealspin{to{transform:rotate(360deg)}}
+@media(max-width:560px){.seal{width:74px;height:74px;top:-20px;right:10px}}
+.fig-no{font-family:'Stencil',sans-serif;color:var(--cyan);margin-right:10px;font-size:16.5px}
+.has-seal .panel-h{padding-right:118px}
+@media(max-width:560px){.has-seal .panel-h{padding-right:84px}.has-seal{margin-top:34px}}
