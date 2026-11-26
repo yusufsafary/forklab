@@ -105,3 +105,12 @@ footer h4{font-family:'Michroma',sans-serif;font-weight:400;font-size:14.5px;let
 footer p,footer a{font-size:16.5px;color:var(--mid)}
 footer a{display:block;border:none;margin-bottom:6px;color:var(--ink)}
 .foot-base{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;border-top:var(--hair);margin-top:18px;padding-top:12px;font-family:'TechMono',monospace;font-size:12px;color:var(--faint);letter-spacing:1.5px}
+.announce{display:flex;align-items:center;gap:16px;border:2.4px solid var(--cyan);background:rgba(127,212,255,.08);padding:13px 16px;margin:14px 0 4px;flex-wrap:wrap}
+.announce img{width:42px;height:46px;flex:none}
+.announce .a-txt{flex:1 1 240px;min-width:0}
+.announce .a-lab{font-family:'TechMono',monospace;font-size:12px;letter-spacing:2.6px;color:var(--cyan)}
+.announce .a-head{font-family:'BarlowC',sans-serif;font-weight:600;font-size:clamp(21px,3.4vw,29px);letter-spacing:1.2px;line-height:1.15;color:#fff}
+.announce .a-date{font-family:'TechMono',monospace;text-align:right;color:var(--ink);flex:none}
+.announce .a-date .d1{font-size:27px;letter-spacing:1px}
+.announce .a-date .d2{font-size:12px;color:var(--mid);letter-spacing:2.4px}
+@media(max-width:560px){.announce .a-date{text-align:left}}
