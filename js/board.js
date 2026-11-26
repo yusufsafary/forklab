@@ -1,7 +1,7 @@
 // FORKLAB status board + casting ruler.
-// Pre-deployment: contract is null and the board shows the drawn state.
+// Live: board reads ForkSale on-chain.
 const CONFIG = {
-  contract: null, // sale contract address, published here at deployment
+  contract: "0xDd0a199AB9C33eC99e1E996D29673091C1e6C583", // ForkSale, live
   rpcs: ["https://bsc-dataseed.binance.org", "https://bsc-dataseed1.defibit.io", "https://bsc.publicnode.com"],
   totalUnits: 6000, freeCap: 1000, paidCap: 5000
 };

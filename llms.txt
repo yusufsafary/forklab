@@ -4,9 +4,9 @@ FORKLAB is a unit distribution on BNB Smart Chain (chainId 56), drawn as an engi
 
 ## Status
 
-- Sale contract: TBA (publishes here, and on forklab.fun, verified on BscScan, before the window opens)
-- Token contract: TBA
-- Window: 3 days from opening; opening time TBA, announced in UTC on forklab.fun
+- Sale contract: 0xDd0a199AB9C33eC99e1E996D29673091C1e6C583 (ForkSale, verified on BscScan and Sourcify)
+- Token contract: 0xa54FB3d0E49d5e82e43bD934A5bd11B39fdF310b (ForkLab, FORK, verified on BscScan and Sourcify)
+- Window: OPEN. Opened 26 Nov 2026 03:28 UTC, closes 29 Nov 2026 03:28 UTC. After closing, anyone can call sealAndMelt(); unclaimed units are burned.
 - Line status: awaiting opening order
 - Official X: https://x.com/forklabfun (@forklabfun)
 - Built for the Binance Agent ID Hackathon (Binance Wallet x BNB Chain); submission window 18 Nov - 9 Dec 2026.
