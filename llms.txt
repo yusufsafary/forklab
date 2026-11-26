@@ -8,6 +8,7 @@ FORKLAB is a unit distribution on BNB Smart Chain (chainId 56), drawn as an engi
 - Token contract: TBA
 - Window: 3 days from opening; opening time TBA, announced in UTC on forklab.fun
 - Line status: awaiting opening order
+- Official X: https://x.com/forklabfun (@forklabfun)
 
 ## Mechanics
 

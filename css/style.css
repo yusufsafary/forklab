@@ -136,3 +136,5 @@ h1,h2.sheet-t,.btn,.tb .big,footer h4{font-family:'Stencil',sans-serif}
 .fig-no{font-family:'Stencil',sans-serif;color:var(--cyan);margin-right:10px;font-size:16.5px}
 .has-seal .panel-h{padding-right:118px}
 @media(max-width:560px){.has-seal .panel-h{padding-right:84px}.has-seal{margin-top:34px}}
+.langrow{display:flex;justify-content:flex-end;margin-top:8px}
+.langchip{font-family:'TechMono',monospace;font-size:13px;letter-spacing:2px;color:var(--cyan);border:1.6px solid var(--cyan);padding:4px 12px;text-decoration:none}

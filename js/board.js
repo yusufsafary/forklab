@@ -38,9 +38,9 @@ const CONFIG = {
         }
       }
       ctx.fillStyle = "#7FD4FF"; ctx.textAlign = "left";
-      ctx.fillText("FREE", px(0), base + 22);
+      ctx.fillText(document.documentElement.lang === "zh" ? "免费" : "FREE", px(0), base + 22);
       ctx.fillStyle = "#9CC4EE"; ctx.textAlign = "right";
-      ctx.fillText("PAID", px(6000), base + 22);
+      ctx.fillText(document.documentElement.lang === "zh" ? "付费" : "PAID", px(6000), base + 22);
     };
     draw();
     var rt; window.addEventListener("resize", function () { clearTimeout(rt); rt = setTimeout(draw, 150); });

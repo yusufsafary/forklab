@@ -37,7 +37,7 @@ I just forked my unit off the FORKLAB line.
 
 6,000 units, one run. When the window closes, unclaimed units melt.
 
-forklab.fun
+forklab.fun @forklabfun
 
 #FORK #BSC #BNBChain
 
