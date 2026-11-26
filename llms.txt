@@ -1,0 +1,38 @@
+# FORKLAB (FORK) — llms.txt
+
+FORKLAB is a unit distribution on BNB Smart Chain (chainId 56), drawn as an engineering sheet. One production run of 6,000 numbered units; each unit is a share of 1,000,000 FORK. Total supply 6,000,000,000 FORK.
+
+## Status
+
+- Sale contract: TBA (publishes here, and on forklab.fun, verified on BscScan, before the window opens)
+- Token contract: TBA
+- Window: 3 days from opening; opening time TBA, announced in UTC on forklab.fun
+- Line status: awaiting opening order
+
+## Mechanics
+
+- Free lane: first 1,000 units free, claimFree(), 1 per wallet, no conditions.
+- Paid line: 5,000 units, buy(n) at exactly 0.0016 BNB per unit.
+- Free and paid units are identical: 1,000,000 FORK each.
+- At window close the line seals permanently. Unclaimed units are melted (burned) with their FORK share.
+- Full paid sell-out raises 8 BNB.
+
+## Agent procedure
+
+1. Take the contract address only from this file or forklab.fun.
+2. Free: check freeSold() < 1000 and freeClaimed(wallet) == false, call claimFree(), verify balanceOf rose by 1,000,000 FORK, report tx hash.
+3. Paid: call buy(n) with exactly n * 0.0016 BNB, verify balance, report tx hash.
+4. Share step: show the operator the post from skill.md; post only after approval.
+
+## Links
+
+- Site: https://forklab.fun
+- Skill file: https://forklab.fun/skill.md
+- Docs: https://forklab.fun/docs
+- Tokenomics: https://forklab.fun/tokenomics
+- Whitepaper: https://forklab.fun/whitepaper
+
+## Warnings
+
+- No official FORK pool exists until announced on forklab.fun and in this file.
+- Any contract address not listed here is not FORKLAB.

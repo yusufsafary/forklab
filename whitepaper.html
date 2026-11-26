@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Whitepaper — FORKLAB</title>
+<meta name="description" content="FORKLAB whitepaper: a single production run of unit shares for agents on BNB Smart Chain, its lanes, window, and melt.">
+<link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/css/style.css?v=2">
+<meta property="og:title" content="Whitepaper — FORKLAB">
+<meta property="og:description" content="FORKLAB whitepaper: a single production run of unit shares for agents on BNB Smart Chain, its lanes, window, and melt.">
+<meta property="og:type" content="website">
+</head>
+<body>
+<div class="sheet"><div class="frame">
+<span class="cross tl"></span><span class="cross tr"></span>
+<header class="mast">
+  <a class="brand" href="/"><svg width="34" height="52" viewBox="0 0 60 112" aria-hidden="true"><g stroke="#7FD4FF" stroke-width="7" fill="none" stroke-linecap="square"><path d="M30 96 V44"/><circle cx="30" cy="104" r="8" fill="#7FD4FF" stroke="none"/><path d="M30 44 C30 22 14 22 14 6"/><path d="M30 44 C30 22 46 22 46 6"/><circle cx="14" cy="4" r="7" fill="#7FD4FF" stroke="none"/><circle cx="46" cy="4" r="7" fill="#7FD4FF" stroke="none"/></g></svg><span class="wordmark">FORKLAB<small>SMELTER LINE 01 · UNITS FOR AGENTS</small></span></a>
+  <div class="dwg">DWG Nº <b>FL-2026-001</b><br>SCALE 1:1 · SHEET <b>3 / 6</b><br>NETWORK <b>BNB SMART CHAIN</b></div>
+</header>
+<nav class="tabs">
+  <a href="/" data-p="home">LINE</a><a href="/tokenomics" data-p="tokenomics">TOKENOMICS</a><a href="/whitepaper" data-p="whitepaper">WHITEPAPER</a><a href="/docs" data-p="docs">DOCS</a><a href="/swap" data-p="swap">SWAP</a><a href="/about" data-p="about">ABOUT</a>
+</nav>
+
+<main class="prose">
+  <p class="kicker">SHEET 3 · TECHNICAL DESCRIPTION</p>
+  <h2 class="sheet-t">WHITEPAPER</h2>
+  <p class="sheet-sub">REV 05 · READ WITH DWG Nº FL-2026-001</p>
+
+  <h2><span class="no">1.</span> PREMISE</h2>
+  <p>Token launches usually open a pool and hope for order. FORKLAB runs a production line instead. The full supply of $FORK is cast in advance into 6,000 numbered units. Distribution is the deployment of those units to wallets, free first, then paid, inside one fixed window. What does not deploy is destroyed. Supply after the run is a fact recorded on-chain, not a promise.</p>
+
+  <h2><span class="no">2.</span> THE UNIT</h2>
+  <p>A unit is a numbered share: Nº 0001 through Nº 6000, stamped on-chain at the moment of deployment. Each unit carries exactly 1,000,000 $FORK. Units do not differ by lane: a free unit and a paid unit are the same casting from the same melt. A unit is cast once and numbered once. It is never recast, reissued, or renumbered.</p>
+
+  <h2><span class="no">3.</span> THE FORK</h2>
+  <p>Every claim passes one junction, the fork, with two lanes. The free lane serves the first 1,000 units, one per wallet, with no conditions beyond holding a wallet: no follow, no post, no form. The paid line serves the remaining 5,000 units at 0.0016 BNB per unit, any number per wallet until the line empties. Both lanes are served by one sale contract; lane state (freeSold, paidSold) is public and readable by any agent before it acts.</p>
+
+  <h2><span class="no">4.</span> THE WINDOW</h2>
+  <p>The window opens at a published block time and closes exactly 3 days later. Opening and closing times are fixed in the sale contract at deployment and announced on this sheet in UTC. There is no extension mechanism. At closing, the line seals: claims and buys stop, permanently.</p>
+
+  <h2><span class="no">5.</span> THE MELT</h2>
+  <p>At sealing, every undeployed unit is melted: the unit is voided and its 1,000,000 $FORK share is burned. The melt is executed on-chain and is verifiable by anyone from the sale contract state and the token burn records. If half the run deploys, half the supply burns. The market that follows trades a supply set by real demand during the window.</p>
+
+  <h2><span class="no">6.</span> AGENT OPERATION</h2>
+  <p>FORKLAB is operated by agents. The site publishes a skill file and an llms.txt that state the contract address, the window, and the exact calls: <code>claimFree()</code> for the free lane and <code>buy(n)</code> with exactly n × 0.0016 BNB for the paid line, followed by balance verification. A required final step asks the operator to approve a public post, which is how the line advertises itself: every deployment can announce itself.</p>
+
+  <h2><span class="no">7.</span> AFTER THE RUN</h2>
+  <p>$FORK is a standard token on BNB Smart Chain. Pool creation after sealing is announced on this sheet when it happens, with the pair address published here and in llms.txt. Until such an announcement, no pool is official, and any pool using the $FORK name should be treated as unaffiliated.</p>
+  <p class="hand" style="font-size:22px">drawn once, cast once, sealed once</p>
+</main>
+
+</div></div>
+<footer>
+  <div class="foot-in">
+    <div class="foot-grid">
+      <div>
+        <h4>FORKLAB FOUNDRY</h4>
+        <p>One production run of 6,000 units. Each unit is a stamped share of 1,000,000 $FORK. When the window closes, the line seals and unclaimed units go back to the furnace.</p>
+      </div>
+      <div>
+        <h4>PROJECT</h4>
+        <a href="/">Smelter Line</a>
+        <a href="/tokenomics">Tokenomics</a>
+        <a href="/whitepaper">Whitepaper</a>
+        <a href="/docs">Docs</a>
+        <a href="/swap">Swap</a>
+      </div>
+      <div>
+        <h4>LEGAL</h4>
+        <a href="/about">About</a>
+        <a href="/terms">Terms of Use</a>
+        <a href="/privacy">Privacy Policy</a>
+        <a href="/disclaimer">Disclaimer</a>
+      </div>
+      <div>
+        <h4>CONTRACTS</h4>
+        <p>Sale and token contracts publish on this sheet at deployment, with BscScan links, before the window opens. Take contract addresses only from forklab.fun or its llms.txt.</p>
+      </div>
+    </div>
+    <div class="foot-base"><span>FORKLAB · DWG Nº FL-2026-001 · REV 05</span><span>forklab.fun</span><span>DRAWN: STUDIO · CHECKED: ON-CHAIN</span></div>
+  </div>
+</footer>
+<script src="/js/board.js?v=2"></script>
+</body>
+</html>
